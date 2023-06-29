@@ -21,7 +21,7 @@ def countFreq(arr, n):
           visited[j] = True
      count += 1
 
-   print(count)
+   print("The Count is ",count)
 
 
 arr = [10, 30, 10, 20, 10, 20, 30, 10,46,44,44]
