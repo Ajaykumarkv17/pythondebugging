@@ -6,7 +6,6 @@ def convert(s):
     
     return v
       
-
 s="hello world"
 a=convert(s)
 print(a)

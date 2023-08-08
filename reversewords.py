@@ -1,6 +1,6 @@
 def reversewords(a):
-       s=a.split(".")
+       s=a.split(" ")
        s.reverse()
-       return ".".join(s)
+       return " ".join(s)
 
-print(reversewords("hello.iam.python"))
+print(reversewords("hello iam python"))

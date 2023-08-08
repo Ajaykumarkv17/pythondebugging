@@ -10,8 +10,8 @@ class Solution:
 		return pro
 
 
-{ 
-    def check(ans,A,p):
+
+def check(ans,A,p):
     c = 0
     for i in range(len(ans)):
         c += A[ans[i][1]]-A[ans[i][0]]
@@ -36,4 +36,3 @@ if __name__=='__main__':
 			print(check(ans,A,p),end="")
 		print()
 		t-=1
- } Driver Code Ends
