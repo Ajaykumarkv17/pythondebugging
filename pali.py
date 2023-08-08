@@ -11,3 +11,6 @@ if(temp==rev):
     print("the number is palindrome")
 else:
    print("the number is not palindrome")
+
+st="ajayayy"
+print(st[::-1])

@@ -20,9 +20,9 @@ def removeDuplicates(arr, n):
     print(temp)
     return j
 
-arr = [10, 20, 20, 30, 40, 40, 40, 50, 50,66,66,77,77,66,77,77,77]
+arr = [10, 80,20, 20, 30, 40, 40, 40, 50, 50,66,66,77,77,66,77,77,77]
 n = len(arr)
-
+print(n)
 n = removeDuplicates(arr, n)
 
 for i in range(n):

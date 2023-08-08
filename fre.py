@@ -22,7 +22,7 @@ def countFreq(arr, n):
           visited[j] = True
           count += 1
 
-     print(arr[i], count)
+     print(arr[i], count,end=" ")
 
 # Driver Code
 arr = [10, 30, 10, 20, 10, 20, 30, 10]
